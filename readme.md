@@ -28,7 +28,7 @@ I like the Doom 3 engine for a lot of reasons, including:
 
 - It's [open-source](https://github.com/id-Software/DOOM-3)
 - Its codebase is [nice and tidy](https://fabiensanglard.net/doom3)
-- I've been using the [idTech game engines](https://en.wikipedia.org/wiki/Id_Tech) for various projects, such as [Quadrilateral Cowboy](http://blendogames.com/qc) (idTech4) and [Thirty Flights of Loving](http://blendogames.com/thirtyflightsofloving) (idTech2).
+- I've been using the [idTech game engines](https://en.wikipedia.org/wiki/Id_Tech) for various projects, such as [Quadrilateral Cowboy](http://blendogames.com/qc) (idTech4), [Thirty Flights of Loving](http://blendogames.com/thirtyflightsofloving) (idTech2), [Gravity Bone](https://blendogames.com/gravitybone), [Grotto King](https://blendogames.com/older.htm#grottoking), [Barista](https://blendogames.com/older.htm#barista1), and more.
 
 ## Is this compatible with Doom 3 BFG Edition?
 
