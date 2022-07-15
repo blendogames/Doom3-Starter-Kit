@@ -14,8 +14,10 @@ Use this as a starting point for your projects, make cool stuff, enjoy!
 
 This package does not include the game executable. Because the Doom 3 engine is open-source, you have different options for getting the executable.
 
-- I recommend the [dhewm3](https://dhewm3.org) source port. If you don't want to compile the executable yourself, you can [click here](https://github.com/dhewm/dhewm3/releases) to download the pre-compiled binaries.
+- I recommend the [dhewm3](https://dhewm3.org) source port. If you don't want to compile the executable yourself, you can [click here](https://github.com/dhewm/dhewm3/releases) to download dhewm3's pre-compiled binaries.
 - You can also try out the [original release of the Doom 3 source code.](https://github.com/id-Software/DOOM-3)
+
+How to use this kit:
 
 1. In the folder that has the game executable, place the 'base' folder.
 2. Run the game executable.
