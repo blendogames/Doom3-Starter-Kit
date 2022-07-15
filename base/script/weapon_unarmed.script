@@ -1,0 +1,10 @@
+
+object weapon_unarmed : weapon_base
+{
+	void		init();	
+};
+
+void weapon_unarmed::init()
+{
+    sys.waitFrame();
+}

@@ -1,0 +1,101 @@
+_default
+{
+	{
+		map	_default
+	}
+}
+
+_tracemodel
+{
+	collision
+}
+
+textures/common/collision
+{
+	qer_editorimage textures/common/collision.tga
+	noshadows
+	collision
+}
+
+console
+{
+	{
+		map	textures/gui/black.tga
+		linear	
+	}
+}
+
+splashscreen
+{
+	{
+		map	textures/gui/black.tga
+		linear	
+	}
+}
+
+gui/loading/launch
+{
+	{
+		blend blend
+		map textures/gui/black.tga
+	}
+}
+
+textures/bigchars
+{
+	{	
+		blend blend
+		maskDepth
+		colored
+		nopicmip
+		linear
+		map textures/bigchars.tga
+	}
+}
+
+//fade to black. length determined by com_wipeSeconds
+wipeMaterial
+{
+	{
+		blend		blend
+		alpha		parm3
+		map			_black
+		scale		1, -1
+		translate	0, -1
+	}
+}
+
+wipe2Material
+{
+	{
+		blend		blend
+		map			_black
+		scale		1, -1
+		translate	0, -1
+		alpha		1.0 - parm3
+	}
+}
+
+textures/common/entityGui
+{
+	qer_editorimage	textures/common/entityGui.tga
+	discrete
+	playerclip
+	guiSurf	entity
+}
+
+textures/common/entityGui2
+{
+	qer_editorimage	textures/common/entityGui2.tga
+	discrete
+	playerclip
+	guiSurf	entity2
+}
+
+textures/common/entityGui3
+{
+	qer_editorimage	textures/common/entityGui3.tga
+	discrete
+	guiSurf	entity3
+	playerclip
+}

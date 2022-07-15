@@ -1,0 +1,47 @@
+windowDef Desktop
+{ 
+   rect      0, 0, 640, 480 
+   backcolor 0, 1, 0, 1
+   menugui      1
+   
+   onESC
+   {
+      set "cmd" "close" ;
+   }   
+	
+	windowDef text
+	{
+		rect		0,100,640,33
+		visible		1
+		text		"Hello world"
+		textalign	1
+		textscale	2
+	}
+
+	windowDef startbutton
+	{
+		rect		500,300,120,40
+		visible		1
+		text		"start"
+		textalign	1
+		textscale	0.7
+		backcolor	0,.5,1,1
+		
+		onMouseEnter
+		{
+			set "startbutton::backcolor"	"1 .6 0 1" ;
+		}
+		
+		onMouseExit
+		{
+			set "startbutton::backcolor"	"0 .5 1 1" ;
+		}		
+		
+		onAction
+		{
+			set "cmd" "startgame test1" ;
+		}
+	}	
+}
+
+

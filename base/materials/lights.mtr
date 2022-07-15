@@ -1,0 +1,22 @@
+lights/defaultProjectedLight
+{
+	lightFalloffImage _noFalloff
+	{
+		forceHighQuality
+		map textures/lights/light.tga
+		colored
+		zeroClamp
+	}
+}
+
+lights/defaultPointLight
+{
+	lightFalloffImage makeintensity(textures/lights/lighta.tga)
+	{
+		forceHighQuality
+		map textures/lights/light.tga
+		colored
+		zeroClamp
+	}
+}
+

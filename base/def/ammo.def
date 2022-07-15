@@ -1,0 +1,17 @@
+entityDef ammo_types
+{
+	"ammo_none"				"0"
+}
+
+
+
+entityDef weapon_unarmed
+{
+	"inv_name"					"Unarmed"
+	"inv_weapon"				"weapon_unarmed"
+
+	"weapon_scriptobject"		"weapon_unarmed"
+	"ammoType"					"ammo_none"
+	"ammoRequired"				"0"
+	"clipSize"					"0"
+}

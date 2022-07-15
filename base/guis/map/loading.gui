@@ -1,0 +1,18 @@
+windowDef Desktop
+{
+	menugui		1
+	rect		0,0,640,480
+	backcolor	1,.5,0,1
+	visible		1
+	nocursor	1
+	
+	windowDef text
+	{
+		rect		0,245,640,33
+		visible		1
+		text		"Loading"
+		textalign	1
+		textscale	2
+	}	
+	
+}

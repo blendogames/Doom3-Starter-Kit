@@ -1,0 +1,11 @@
+windowDef Desktop
+{
+	menugui		1
+	nocursor	0
+	rect		0,0,640,480
+	
+	onTime 10
+	{
+		set	"cmd"	"startgame";
+	}
+}

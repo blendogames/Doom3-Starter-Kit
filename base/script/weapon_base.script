@@ -1,0 +1,53 @@
+
+object weapon_base {
+	boolean		WEAPON_ATTACK;
+	boolean		WEAPON_RELOAD;
+	boolean		WEAPON_PICKER;
+	boolean		WEAPON_NETRELOAD;
+	boolean		WEAPON_NETENDRELOAD;
+	boolean		WEAPON_NETFIRING;
+	boolean		WEAPON_RAISEWEAPON;
+	boolean		WEAPON_LOWERWEAPON;
+
+	boolean		WEAPON_START_FIRING;
+
+	void		EnterCinematic();
+	void		ExitCinematic();
+	void		NetCatchup();
+	void		WeaponStolen();
+	void		OwnerDied();
+	void		UpdateSkin();
+
+	string		GetFireAnim();
+};
+
+
+void weapon_base::EnterCinematic() {
+}
+
+
+void weapon_base::ExitCinematic() {
+}
+
+void weapon_base::NetCatchup() {
+	weaponState( "Idle", 0 );
+}
+
+void weapon_base::WeaponStolen() {
+}
+
+
+void weapon_base::OwnerDied() {
+}
+
+void weapon_base::UpdateSkin() {
+	if ( isInvisible() ) {
+		setSkin( getKey( "skin_invisible" ) );
+	} else {
+		setSkin( "" );
+	}
+}
+
+string weapon_base::GetFireAnim() {
+	return "fire";
+}

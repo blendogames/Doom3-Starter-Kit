@@ -1,0 +1,4 @@
+textures/walls/dev64
+{
+	diffusemap textures/walls/dev64	
+}

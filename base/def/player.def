@@ -1,0 +1,28 @@
+
+model model_player
+{
+	mesh								models/player/player.md5mesh	
+
+	anim idle							models/player/idle.md5anim
+}
+
+entityDef player_doommarine
+{
+	"spawnclass"   					"idPlayer"
+	"scriptobject" 					"player"
+    "model"							"model_player"
+    "bone_hips"						"bone"
+    "bone_chest"					"bone"
+    "bone_head"	    				"bone"
+	
+	"def_weapon0"					"weapon_unarmed" 
+	"weapon0_allowempty"			"1"
+
+	"weapon"						"weapon_unarmed"
+	"current_weapon"				"0"   
+}
+
+entityDef player_doommarine_mp
+{
+	"inherit" 						"player_doommarine"
+}
