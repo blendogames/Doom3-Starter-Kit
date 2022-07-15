@@ -34,4 +34,4 @@ No.
 
 ## License
 
-This package is licensed under the zlib license. Read the license details here: [LICENSE.md](https://github.com/blendogames/doom3_starterkit/blob/master/license.md)
+This package is licensed under the zlib license. Read the license details here: [LICENSE.md](https://github.com/blendogames/doom3-starter-kit/blob/master/license.md)
